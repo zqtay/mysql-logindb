@@ -9,7 +9,7 @@ A practice of using Python as a login interface and a data encryption tool, and 
 5. Concatenate code (hUN + PWsaltsalt + ePWsalt + hPW)
 
 # Decryption (Log-in) route:
-1. Get code and split into hUN, PWsaltsalt, ePWsalt, hPW)
+1. Get code and unpack into hUN, PWsaltsalt, ePWsalt, hPW
 2. Match hashed UserName input to hUN
 3. Decrypt ePWsalt with salt and iteration number from PWsaltsalt
 4. Hash PassWord input with salt and iteration number from decrypted PWsalt
