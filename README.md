@@ -1,5 +1,5 @@
 # mysql-logindb
-A practice of using MySQL as a login credentials database and Python as a login interface.
+A practice of using Python as a login interface and a data encryption tool, and MySQL as a login credentials database.
 
 # Encryption (Registration) route:
 1. Randomise salts and iteration numbers and merge them in single salt string (PWsaltsalt & PWsalt)
